@@ -11,6 +11,6 @@
                 <param name="android-package" value="com.lazyathome.cordova.ExtraInfo"/>
             </feature>
         </config-file>
-        <source-filesrc="src/android/ExtraInfo.java"target-dir="src/cn/net/wenzhixin/cordova"/>
+        <source-file src="src/android/ExtraInfo.java" target-dir="src/cn/net/wenzhixin/cordova"/>
     </platform>
 </plugin>
