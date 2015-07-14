@@ -1,0 +1,18 @@
+<?xmlversion="1.0"encoding="utf-8"?>                                                                 
+                                                                        <pluginid="cn.net.wenzhixin.cordova"version="0.0.1"                                                                 
+                                                                                xmlns=" http://apache.org/cordova/ns/plugins/1.0"                                                                 
+                                                                                xmlns:android=" http://schemas.android.com/apk/res/android">                                                                 
+                                                                            <name>ExtraInfo</name>                                                                 
+                                                                            <description>Description</description>                                                                 
+                                                                            <js-modulename="ExtraInfo"src="www/ExtraInfo.js">                                                                 
+                                                                                <clobberstarget="cordova.plugins.ExtraInfo"/>                                                                 
+                                                                            </js-module>                                                                 
+                                                                            <platformname="android">                                                                 
+                                                                                <config-fileparent="/*"target="res/xml/config.xml">                                                                 
+                                                                                    <featurename="ExtraInfo">                                                                 
+                                                                                        <paramname="android-package"value="cn.net.wenzhixin.cordova.ExtraInfo"/>                                                                 
+                                                                                    </feature>                                                                 
+                                                                                </config-file>                                                                 
+                                                                                <source-filesrc="src/android/ExtraInfo.java"target-dir="src/cn/net/wenzhixin/cordova"/>                                                                 
+                                                                            </platform>                                                                 
+                                                                        </plugin>    
