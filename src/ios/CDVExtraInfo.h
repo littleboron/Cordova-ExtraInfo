@@ -3,7 +3,7 @@
 #import <CoreLocation/CLLocationManager.h>
 #import <Cordova/CDVPlugin.h>
 
-@interface CDVExtraInfo
+@interface CDVExtraInfo:CDVPlugin
 
 -(void)getExtra:(CDVInvokedUrlCommand*)command;
 @end

@@ -6,7 +6,7 @@
 
 @implementation CDVExtraInfo
 -(void)getExtra:(CDVInvokedUrlCommand*)command{
-
+ NSLog(@"%@",@"getExtra");
 }
 
 @end
