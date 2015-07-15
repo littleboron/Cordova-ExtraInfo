@@ -13,4 +13,16 @@
         </config-file>
         <source-file src="src/android/ExtraInfo.java" target-dir="src/com/lazyathome/cordova/"/>
     </platform>
+
+     <!-- ios -->
+     <platform name="ios">
+         <config-file target="config.xml" parent="/*">
+             <feature name=“ExtraInfo”>
+                 <param name="ios-package" value="CDVExtraInfo” />
+             </feature>
+         </config-file>
+         <header-file src="src/ios/CDVExtraInfo.h” />
+         <source-file src="src/ios/CDVExtraInfo.m” />
+         <framework src="ImageIO.framework" weak="true" />                  
+     </platform>
 </plugin>
