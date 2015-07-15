@@ -1,4 +1,4 @@
-<?xmlversion="1.0"encoding="utf-8"?>
+<?xmlversion="1.0"encoding="utf-8”?>
 <plugin id="com.lazyathome.cordova"version="0.0.1" xmlns=" http://apache.org/cordova/ns/plugins/1.0" xmlns:android=" http://schemas.android.com/apk/res/android">
     <name>ExtraInfo</name>
     <description>Description</description>
@@ -17,12 +17,12 @@
      <!-- ios -->
      <platform name="ios">
          <config-file target="config.xml" parent="/*">
-             <feature name=“ExtraInfo”>
-                 <param name="ios-package" value="CDVExtraInfo” />
+             <feature name="ExtraInfo">
+                 <param name="ios-package" value="CDVExtraInfo" />
              </feature>
          </config-file>
-         <header-file src="src/ios/CDVExtraInfo.h” />
-         <source-file src="src/ios/CDVExtraInfo.m” />
-         <framework src="ImageIO.framework" weak="true" />                  
+         <header-file src="src/ios/CDVExtraInfo.h" />
+         <source-file src="src/ios/CDVExtraInfo.m" />
+         <framework src="ImageIO.framework" weak="true" />
      </platform>
 </plugin>
